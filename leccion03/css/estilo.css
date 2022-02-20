@@ -1,0 +1,17 @@
+h1{
+    color: #560bab;
+
+}
+/*estado sin dar clic y visitado */
+a:link,a:visited{
+    background-color: #560bab;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;/*Para que no se encimen los componentes*/
+}
+
+a:hover,a:active{
+    color: #f72585;
+}

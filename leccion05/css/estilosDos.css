@@ -1,0 +1,15 @@
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+
+ol li::before{/*sirve para agregar un texto antes de osytrar el elemento agregado*/
+    content: 'curso ' counter(contador)' ';
+}
+ol li::after{/*sirve para agregar un texto despues de osytrar el elemento agregado*/
+    content: '.';
+    
+}

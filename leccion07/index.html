@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de login</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <div class="contenedor"><!--la clase contenedor tiene adentro a todos los elementos-->
+        <h2>login <img src="https://cdn-icons-png.flaticon.com/128/1329/1329941.png" width="30px"></h2>
+        <form id="forma" name="forma" method="get">
+            <div class="elemento">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario" required/>
+            </div>
+            <div class="elemento">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required/>
+
+            </div>
+            <div class="elemento">
+                <input type="submit" name="enviar" id="enviar"/>
+                <input type="reset" name="reseteo" id="reseteo" value="cancelar">
+            </div>
+        </form>
+    </div>
+    
+    
+</body>
+</html>

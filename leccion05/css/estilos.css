@@ -1,0 +1,26 @@
+h1{
+    color: #1d3557;
+}
+
+ul{
+    list-style-type: none;/*quitamos la viñeta*/
+    background-color: #457b9d;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+
+}
+li{
+    float: left;
+}
+li a{/*esto sirve para aplicar solo a los elemtos de la la lista que sean un link*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+li a:hover{/*cuando pasemos el mouse por el link*/
+    background-color: #1d3557;
+}
